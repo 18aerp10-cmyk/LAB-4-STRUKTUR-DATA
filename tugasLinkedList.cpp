@@ -110,7 +110,7 @@ int main() {
     }
     cout << endl;
 
-    // Tambah node baru di tengah (setelah node3 / nilai 45)
+    // Tambah node baru di tengah
     Node* node13 = new Node();
     node13->data = 0;
     node13->next = node3->next;
@@ -156,7 +156,5 @@ int main() {
         cout << temp->data << " ";
         temp = temp->next;
     }
-    cout << endl;
-
     return 0;
 }
